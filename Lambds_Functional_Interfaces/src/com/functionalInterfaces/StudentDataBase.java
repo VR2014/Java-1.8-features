@@ -19,7 +19,7 @@ public class StudentDataBase {
          * 3rd grade students
          */
         Student student3 = new Student("Emily",3,4.0,"female", Arrays.asList("swimming", "gymnastics","aerobics"));
-        Student student4 = new Student("Dave",3,3.9,"male", Arrays.asList("swimming", "gymnastics","soccer"));
+        Student student4 = new Student("Dave",3,5.9,"male", Arrays.asList("swimming", "gymnastics","soccer"));
         /**
          * 4th grade students
          */

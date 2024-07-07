@@ -10,7 +10,7 @@ public class BiConsumerExample {
     public static void main(String[] args) {
 
         /*
-       consumer and Biconsumer doesn't return any values
+       consumer and Bi-consumer doesn't return any values
         those will consume the parameter and perform the operations
         accept method will take parameters
         andThen method is used of taking multiple methods
