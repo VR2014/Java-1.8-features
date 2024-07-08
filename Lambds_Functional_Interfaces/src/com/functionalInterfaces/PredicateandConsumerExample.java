@@ -8,6 +8,8 @@ import java.util.function.Consumer;
 import java.util.function.Predicate;
 
 public class PredicateandConsumerExample {
+
+   static  Predicate<Student>p = (p)-> p.getGpa()>4;
     Predicate<Student>p1 = (p1)-> p1.getGpa()>3;
     Predicate<Student> p2 =(p2)-> p2.getGradeLevel()>3;
 
@@ -20,6 +22,8 @@ public class PredicateandConsumerExample {
             studentBiconsumer.accept(s.getName(),s.getActivities());
         }
     });
+
+
 
     private void printNameAndActivites(List<Student> listOfStudents) {
         listOfStudents.forEach(studentvalidations);
